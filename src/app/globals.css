@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-[#f3f3f3]
+  }
+}
+
+@layer components{
+  .dashboard{
+    @apply w-full flex items-start gap-2 justify-start
+  }
+}
